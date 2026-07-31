@@ -2,7 +2,7 @@
 
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3200&pause=1000&color=7AA2F7&center=true&vCenter=true&repeat=true&width=820&height=60&lines=Hi%2C+I%27m+NeroUMU%2C+welcome+to+my+page"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3200&pause=1000&color=E879F9&center=true&vCenter=true&repeat=true&width=820&height=60&lines=Hi%2C+I%27m+NeroUMU%2C+welcome+to+my+page"
     alt="Hi, I'm NeroUMU, welcome to my page"
   />
 </div>
@@ -13,7 +13,7 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nero-UMU&theme=tokyonight&animation=load&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nero-UMU&name=NeroUMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
     width="100%"
     alt="GitHub Profile Details"
   />
@@ -21,12 +21,12 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nero-UMU&theme=tokyonight&animation=load&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nero-UMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
     width="49%"
     alt="Top Languages by Repository"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nero-UMU&theme=tokyonight&animation=load&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nero-UMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
     width="49%"
     alt="Top Languages by Commit"
   />
@@ -34,12 +34,12 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Nero-UMU&theme=tokyonight&animation=load&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Nero-UMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
     width="49%"
     alt="GitHub Statistics"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nero-UMU&theme=tokyonight&utcOffset=9&animation=load&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nero-UMU&theme=radical&utcOffset=9&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
     width="49%"
     alt="Productive Time"
   />
