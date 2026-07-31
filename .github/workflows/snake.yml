@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # 生成亮色和暗色两种贪吃蛇
+      # 生成紫粉渐变的亮色版和暗色版贪吃蛇
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
