@@ -1,0 +1,40 @@
+name: Generate Contribution Snake
+
+on:
+  # 每天自动更新一次
+  # GitHub Actions 的 cron 使用 UTC 时间
+  # UTC 00:00 = 日本时间 09:00 = 中国时间 08:00
+  schedule:
+    - cron: "0 0 * * *"
+
+  # 允许在 Actions 页面手动运行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      # 生成亮色和暗色两种贪吃蛇
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%237AA2F7&color_dots=%23EBEDF0,%23C0CAF5,%237AA2F7,%23BB9AF7,%239D7CD8
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23BB9AF7&color_dots=%231A1B26,%2324283B,%233B4261,%237AA2F7,%23BB9AF7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 将生成的 SVG 发布到 output 分支
+      - name: Publish snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
