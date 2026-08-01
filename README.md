@@ -39,7 +39,7 @@
     alt="GitHub Statistics"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nero-UMU&theme=radical&utcOffset=9&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nero-UMU&theme=radical&utcOffset=8&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
     width="49%"
     alt="Productive Time"
   />
