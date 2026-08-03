@@ -9,11 +9,11 @@
 
 <br />
 
-<!-- ==================== 综合数据面板 ==================== -->
+<!-- ==================== Action 静态综合数据面板 ==================== -->
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nero-UMU&name=NeroUMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
+    src="https://raw.githubusercontent.com/Nero-UMU/Nero-UMU/main/profile-summary-card-output/radical/0-profile-details.svg"
     width="100%"
     alt="GitHub Profile Details"
   />
@@ -21,12 +21,12 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nero-UMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
+    src="https://raw.githubusercontent.com/Nero-UMU/Nero-UMU/main/profile-summary-card-output/radical/1-repos-per-language.svg"
     width="49%"
     alt="Top Languages by Repository"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nero-UMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
+    src="https://raw.githubusercontent.com/Nero-UMU/Nero-UMU/main/profile-summary-card-output/radical/2-most-commit-language.svg"
     width="49%"
     alt="Top Languages by Commit"
   />
@@ -34,12 +34,12 @@
 
 <div align="center">
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Nero-UMU&theme=radical&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
+    src="https://raw.githubusercontent.com/Nero-UMU/Nero-UMU/main/profile-summary-card-output/radical/3-stats.svg"
     width="49%"
     alt="GitHub Statistics"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nero-UMU&theme=radical&utcOffset=8&title_color=E879F9&text_color=DDD6FE&bg_color=18101F&border_color=3B185F&icon_color=C084FC&chart_color=A855F7&animation=load&duration=3"
+    src="https://raw.githubusercontent.com/Nero-UMU/Nero-UMU/main/profile-summary-card-output/radical/4-productive-time.svg"
     width="49%"
     alt="Productive Time"
   />
@@ -47,7 +47,7 @@
 
 <br />
 
-<!-- ==================== 贡献墙贪吃蛇 ==================== -->
+<!-- ==================== 紫粉渐变贡献墙贪吃蛇 ==================== -->
 
 <div align="center">
   <picture>
