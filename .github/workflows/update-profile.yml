@@ -44,8 +44,8 @@ jobs:
           # 将生成的卡片提交到 main 分支
           BRANCH_NAME: "main"
 
-          # 日本时区 UTC+9
-          UTC_OFFSET: 9
+          # 北京时区 UTC+8
+          UTC_OFFSET: 8
 
           # 不排除任何语言
           EXCLUDE: ""
