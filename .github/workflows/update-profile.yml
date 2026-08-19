@@ -1,27 +1,19 @@
 name: Update GitHub Profile
 
 on:
-  # 每天自动更新一次
-  # UTC 00:00 = 日本时间 09:00 = 中国时间 08:00
   schedule:
     - cron: "0 0 * * *"
 
-  # 允许从 Actions 页面手动运行
   workflow_dispatch:
 
-# 允许工作流向 main 和 output 分支写入文件
 permissions:
   contents: write
 
-# 避免手动运行和定时运行同时执行
 concurrency:
   group: update-github-profile
   cancel-in-progress: true
 
 jobs:
-  # ========================================================
-  # 生成 GitHub Profile Summary Cards
-  # ========================================================
   summary-cards:
     name: Generate Profile Summary Cards
     runs-on: ubuntu-latest
@@ -34,40 +26,27 @@ jobs:
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # 需要在仓库 Secrets 中创建这个变量
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
 
         with:
-          # 自动读取当前仓库所有者，即 Nero-UMU
           USERNAME: ${{ github.repository_owner }}
 
-          # 将生成的卡片提交到 main 分支
           BRANCH_NAME: "main"
 
-          # 北京时区 UTC+8
           UTC_OFFSET: 8
 
-          # 不排除任何语言
           EXCLUDE: ""
 
-          # 自动提交生成的 SVG 文件
           AUTO_PUSH: true
 
-          # 只生成紫粉风格的 radical 主题
           THEME: "radical"
 
-          # 保留加载动画
           ANIMATION: "load"
 
-          # 动画持续时间，单位为秒
           DURATION: "3"
 
-          # Profile Details 卡片显示的名称
           NAME: "NeroUMU"
 
-  # ========================================================
-  # 生成紫粉渐变贡献墙贪吃蛇
-  # ========================================================
   snake:
     name: Generate Contribution Snake
     runs-on: ubuntu-latest
